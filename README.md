@@ -1,4 +1,6 @@
 # htmlphp
+``` 
+
 PHP class for producing HTML code.
 
 I created this html.php for a Joomla site I was creating.  If included it creates a class called html with a few html functions...
@@ -139,3 +141,4 @@ $sronly - screen reader text to insert (see icon function)
 $hidden - defaults to "false" - either string "false" or string "true" accepted - used for the "aria-hidden" attribute (see icon function)
 ibutton ( 'mailto:myemail@email.com', array ( 'class' => 'btn btn-primary' ), 'fa fa-envelope', 'E-mail', 'true' ) ; would return
 <a href="mailto:myemail@email.com" class="btn btn-primary"><i class="fa fa-envelope" aria-hidden="true"><span class="sr-only">E-mail</span></i></a>
+``` 
